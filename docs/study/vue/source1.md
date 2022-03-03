@@ -1,7 +1,6 @@
-<!--
- * @FilePath: /xyingliu.github.io/Users/xyingliu/code/blog/vuepress-starter/docs/study/vue/source1.md
- * @Description: 描述
- * @Author: 刘晓莹
- * @LastEditTime: 2022-02-23 15:04:45
--->
-源码学习1
+---
+autoGroup-2: vue不间断更新
+title: vue不间断更心-source1
+---
+
+## vue 不间断更心-source1

@@ -1,6 +1,8 @@
 ---
-sidebar: true
+sidebarDepth: 2
+title: 项目知识点积累
 ---
+
 
 ## 项目
 

@@ -1,3 +1,3 @@
 ---
-sidebar: true
+title: 前端杂章记录
 ---

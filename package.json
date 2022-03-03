@@ -6,13 +6,15 @@
   "scripts": {
     "deploy": "bash deploy.sh",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "docs:nav": "vuepress nav docs"
   },
   "keywords": [],
   "author": "Feng L.H.",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.5.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "dependencies": {
     "core-js": "^2.6.11",
