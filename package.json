@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "deploy": "bash deploy.sh",
+    "update": "bash deploy.sh",
+    "docs:dev": "vuepress dev docs",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "docs:build": "vuepress build docs",
     "docs:nav": "vuepress nav docs"
   },
   "keywords": [],

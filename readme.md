@@ -2,7 +2,7 @@
  * @FilePath: /xyingliu.github.io/Users/xyingliu/code/blog/vuepress-blog/readme.md
  * @Description: 描述
  * @Author: 刘晓莹
- * @LastEditTime: 2022-03-03 16:06:00
+ * @LastEditTime: 2022-03-04 13:55:11
 -->
 <!-- nav 开头的文件夹将会成为导航栏，如果手动配置了 themeConfig.nav 将自动合并。
 nav.10.文件名, 10.文件名……会自动去掉前缀、排序数字。
@@ -15,9 +15,5 @@ nav.10.文件名, 10.文件名……会自动去掉前缀、排序数字。
 #### 头部nav导航栏自动生成
 使用插件 [vuepress-plugin-autonav ](https://github.com/webmasterish/vuepress-plugin-autonav)
 
-隐藏导航栏中markdown的配置
-```
-autonav:
-enable: true
-order: -1
-```
+#### 侧边栏navbar自动生成
+使用插件 [vuepress-plugin-auto-sidebar ](vuepress-plugin-auto-sidebar)
