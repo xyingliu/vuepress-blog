@@ -1,0 +1,66 @@
+---
+title: homebrew安装过程及问题记录
+---
+### 安装时，本人电脑情况如下：
+- npm版本：7.20.6
+
+
+
+### 具体安装步骤可以参考以下文章
+​[https://zhuanlan.zhihu.com/p/90508170](https://zhuanlan.zhihu.com/p/90508170)
+[https://zhuanlan.zhihu.com/p/59805070](https://zhuanlan.zhihu.com/p/59805070)
+ [https://zhuanlan.zhihu.com/p/366354601](https://zhuanlan.zhihu.com/p/366354601)
+### 使用homebrew更新node，`brew update node`报错如下
+```shell
+fatal: Could not resolve HEAD to a revision		
+```
+#### 解决方法，步骤如下：
+##### 第一步：`brew update --verbose`
+```shell
+% brew update -verbose
+Checking if we need to fetch /opt/homebrew...
+Checking if we need to fetch /opt/homebrew/Library/Taps/homebrew/homebrew-cask...
+Fetching /opt/homebrew...
+Checking if we need to fetch /opt/homebrew/Library/Taps/homebrew/homebrew-core...
+Fetching /opt/homebrew/Library/Taps/homebrew/homebrew-core...
+Fetching /opt/homebrew/Library/Taps/homebrew/homebrew-cask...
+fatal: unable to access 'https://github.com/Homebrew/homebrew-cask/': Failed to connect to github.com port 443: Operation timed out
+Error: Fetching /opt/homebrew/Library/Taps/homebrew/homebrew-cask failed!
+Updating /opt/homebrew...
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Switched to and reset branch 'master'
+Your branch is up to date with 'origin/master'.
+Switched to and reset branch 'stable'
+Current branch stable is up to date.
+
+Updating /opt/homebrew/Library/Taps/homebrew/homebrew-core...
+fatal: Could not resolve HEAD to a revision
+```
+##### 第二步：这个时候报错。打开报错路径：
+```shell
+cd /opt/homebrew/Library/Taps/homebrew/homebrew-core
+ls -al
+
+total 0
+drwxr-xr-x   3 tyrone.lin@ui.com  admin   96  4 13 16:34 .
+drwxr-xr-x   4 tyrone.lin@ui.com  admin  128  4 14 11:31 ..
+drwxr-xr-x  12 tyrone.lin@ui.com  admin  384  4 14 11:44 .git
+```
+##### 第三步：执行以下命令
+```shell
+git fetch --prune origin
+git pull --rebase origin master
+```
+##### 最后，以上命令运行成功之后执行：
+```shell
+brew update
+```
+​
+
+
+---
+
+#### [
+](https://zhuanlan.zhihu.com/p/366354601)
+
+
