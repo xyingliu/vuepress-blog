@@ -1,35 +1,28 @@
 /*
- * @FilePath: /xyingliu.github.io/Users/xyingliu/code/blog/vuepress-starter/docs/.vuepress/config.js
+ * @FilePath: /xyingliu.github.io/Users/xyingliu/code/blog/vuepress-blog/docs/.vuepress/config.js
  * @Description: 描述
-<<<<<<< HEAD
- * @Author: 只道寻常
- * @LastEditTime: 2022-03-01 10:05:37
- */
-=======
  * @Author: 刘晓莹
- * @LastEditTime: 2022-03-07 14:02:23
+ * @LastEditTime: 2022-03-07 14:32:39
  */
 
->>>>>>> 293d9ffa (feature: 增加md文件)
 module.exports = {
-  title: "只道寻常的前端小破站",
+  title: "只道寻常的前端小站点",
   description: "一些笔记和生活杂谈",
+  theme: "antdocs",
+  logo: "/assets/logo.svg",
+  base: "/",
+  head: [["link", { rel: "icon", href: "/assets/logo.svg" }]],
+  markdown: {
+    lineNumbers: false,
+  },
   themeConfig: {
-    logo: "/images/bear.svg",
+    smoothScroll: true,
+    lastUpdated: "Last Updated",
+    repo: "https://github.com/zpfz/vuepress-creator",
+    editLinks: false,
+    displayAllHeaders: true,
+  },
 
-<<<<<<< HEAD
-    // 头部菜单设置
-    nav: [
-      { text: "首页", link: "/" },
-      { text: "每日小记", link: "/histories/" },
-      {
-        text: "前端杂章记录",
-        items: [
-          { text: "VUE吐血学习ing", link: "/study/vue/" },
-          { text: "get优化小技巧", link: "/study/optimization/" },
-          { text: "项目点分析", link: "/study/projects/" },
-        ],
-=======
   autoOpenBrowser: true,
   plugins: {
     // 中文文件夹转拼音路径
@@ -55,26 +48,13 @@ module.exports = {
       // 折叠
       collapse: {
         open: false,
->>>>>>> 293d9ffa (feature: 增加md文件)
       },
-      { text: "生活", link: "/life/" },
-    ],
-
-    // 侧边菜单设置
-    displayAllHeaders: true, // 默认值：false
-    sidebar: {
-      navbar: false,
-      "/study/vue/": [
-        {
-          title: "vue的不间断更新",
-          collapsable: true,
-          children: [
-            { title: "目录", path: "/study/vue/source1" },
-            { title: "源码学习-router", path: "/study/vue/source1" },
-            { title: "源码学习-extends", path: "/study/vue/source2" },
-          ],
-        },
-      ],
     },
+    // 头部导航栏自动生成
+    autonav: {
+      enable: true,
+    },
+    // url路径按照目录文件名来生成
+    "@vuepress/blog": {},
   },
 }
