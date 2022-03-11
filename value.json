@@ -1,0 +1,615 @@
+{
+  "cells": [{
+      "wrap": true,
+      "value": "工具之——JavaScript 工具函数大全（一）",
+      "inlineStyles": {
+        "underline": [{
+          "from": 0,
+          "to": 25,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 25,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 25,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 0,
+          "to": 25,
+          "value": "https://segmentfault.com/a/1190000019601333"
+        }]
+      }
+    },
+    {
+      "value": "工具之——JavaScript 工具函数大全（二）",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 25,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 25,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 25,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 25,
+          "value": "https://juejin.im/post/5e6cf42bf265da57397e3694#heading-56"
+        }]
+      }
+    },
+    {
+      "value": "工具之——JavaScript 工具函数大全（三）",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 25,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 25,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 25,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 25,
+          "value": "https://segmentfault.com/a/1190000019601333"
+        }]
+      }
+    },
+    {
+      "wrap": true,
+      "value": "工具之——工作中经常用到github上优秀、实用、轻量级、无依赖的插件和库",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 37,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 37,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 37,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 37,
+          "value": "https://github.com/jawil/blog/issues/10"
+        }]
+      }
+    },
+    {
+      "value": "工具之——js开发常用工具函数",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 15,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 15,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 15,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 15,
+          "value": "https://segmentfault.com/a/1190000019601333"
+        }]
+      }
+    },
+    {
+      "wrap": true,
+      "value": "工具之——各种省略号",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 10,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 10,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 10,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 10,
+          "value": "https://www.zoo.team/article/text-overflow"
+        }]
+      }
+    },
+    {
+      "value": "工具之——正则大全",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 9,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 9,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 9,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 9,
+          "value": "https://any86.github.io/any-rule/"
+        }]
+      }
+    },
+    {
+      "value": "工具之——前端必用正则",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 11,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 11,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 11,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 11,
+          "value": "https://segmentfault.com/a/1190000019601333"
+        }]
+      }
+    },
+    {
+      "value": "工具之——各种字符的正则",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 12,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 12,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 12,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 12,
+          "value": "https://www.cnblogs.com/hai-ping/articles/2997538.html"
+        }]
+      }
+    },
+    {
+      "value": "工具之——正则https://www.365jz.com/article/23846",
+      "inlineStyles": {
+        "underline": [{
+          "from": 7,
+          "to": 42,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 7,
+          "value": 16
+        }],
+        "color": [{
+          "from": 7,
+          "to": 42,
+          "value": "#003884"
+        }],
+        "href": [{
+          "from": 7,
+          "to": 42,
+          "value": "https://www.365jz.com/article/23846"
+        }]
+      }
+    },
+    {
+      "value": "工具之——正则表达式各种字符的解释",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 17,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 17,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 17,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 17,
+          "value": "http://tool.oschina.net/uploads/apidocs/jquery/regexp.html"
+        }]
+      }
+    },
+    {
+      "value": "工具之——正则表达式各种字符的解释",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 17,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 17,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 17,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 17,
+          "value": "http://tool.oschina.net/uploads/apidocs/jquery/regexp.html"
+        }]
+      }
+    },
+    {
+      "value": "https://biaoyansu.com/28.cheatsheet正则速查法",
+      "inlineStyles": {
+        "underline": [{
+          "from": 0,
+          "to": 35,
+          "value": true
+        }],
+        "color": [{
+          "from": 0,
+          "to": 35,
+          "value": "#003884"
+        }],
+        "href": [{
+          "from": 0,
+          "to": 35,
+          "value": "https://biaoyansu.com/28.cheatsheet"
+        }]
+      }
+    },
+    {
+      "value": "工具之——数组操作方法",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 11,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 11,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 11,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 11,
+          "value": "https://segmentfault.com/a/1190000019522061"
+        }]
+      }
+    },
+    {
+      "value": "工具之——eslint",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 11,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 11,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 11,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 11,
+          "value": "https://segmentfault.com/a/1190000014230857 https://blog.csdn.net/IT_HLM/article/details/78776630"
+        }]
+      }
+    },
+    {
+      "value": "优化之——编写更好的 JavaScript 条件式和匹配条件的技巧",
+      "inlineStyles": {
+        "underline": [{
+          "from": 5,
+          "to": 33,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 33,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 33,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 5,
+          "to": 33,
+          "value": "https://segmentfault.com/a/1190000019576207"
+        }]
+      }
+    },
+    {
+      "value": "性能优化之——编写高性能的JavaScript",
+      "inlineStyles": {
+        "underline": [{
+          "from": 7,
+          "to": 23,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 23,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 23,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 7,
+          "to": 23,
+          "value": "https://github.com/fengshi123/blog/issues/6"
+        }]
+      }
+    },
+    {
+      "value": "性能优化之——webpack教程资源",
+      "inlineStyles": {
+        "underline": [{
+          "from": 7,
+          "to": 18,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 18,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 18,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 7,
+          "to": 18,
+          "value": "https://segmentfault.com/a/1190000011530762"
+        }]
+      }
+    },
+    {
+      "value": "性能优化之——带你深度解锁Webpack系列(基础篇)",
+      "inlineStyles": {
+        "underline": [{
+          "from": 7,
+          "to": 27,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 27,
+          "value": 16
+        }],
+        "color": [{
+          "from": 7,
+          "to": 27,
+          "value": "#003884"
+        }],
+        "href": [{
+          "from": 7,
+          "to": 27,
+          "value": "https://mp.weixin.qq.com/s?__biz=MzI4NDYxNTM0OQ==&mid=2247484572&idx=1&sn=817472fd3278bd4d43091606119d9e26&chksm=ebf9f346dc8e7a5016f84dd03d6da7a3b4cfe019debcece7d2cdd81870a51dde30b5aca3d742&scene=21#wechat_redirect"
+        }]
+      }
+    },
+    {
+      "value": "性能优化之——万字长文带你深度解锁Webpack（进阶篇）",
+      "inlineStyles": {
+        "underline": [{
+          "from": 7,
+          "to": 29,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 29,
+          "value": 16
+        }],
+        "color": [{
+          "from": 7,
+          "to": 29,
+          "value": "#003884"
+        }],
+        "href": [{
+          "from": 7,
+          "to": 29,
+          "value": "https://mp.weixin.qq.com/s?__biz=MzI4NDYxNTM0OQ==&mid=2247484648&idx=1&sn=14032beb36fde8f8ba6919e738914205&chksm=ebf9f332dc8e7a24b4ce2f286967762c9bec42bedc75c2a544465a1527564f8cf3d97bab20c2&scene=21#wechat_redirect"
+        }]
+      }
+    },
+    {
+      "value": "性能优化之——带你深度解锁Webpack系列(优化篇)（完整的webpack配置https://github.com/YvetteLau/webpack/tree/master/webpack-optimize）",
+      "inlineStyles": {
+        "underline": [{
+            "from": 7,
+            "to": 27,
+            "value": true
+          },
+          {
+            "from": 40,
+            "to": 105,
+            "value": true
+          }
+        ],
+        "font-size": [{
+          "from": 0,
+          "to": 27,
+          "value": 16
+        }],
+        "color": [{
+            "from": 7,
+            "to": 27,
+            "value": "#003884"
+          },
+          {
+            "from": 40,
+            "to": 105,
+            "value": "#003884"
+          }
+        ],
+        "href": [{
+            "from": 7,
+            "to": 27,
+            "value": "https://mp.weixin.qq.com/s/Rv1O4oFvj6rVpijUXtfyCA"
+          },
+          {
+            "from": 40,
+            "to": 105,
+            "value": "https://github.com/YvetteLau/webpack/tree/master/webpack-optimize"
+          }
+        ]
+      }
+    },
+    {
+      "value": "代码规范之——前端代码规范",
+      "inlineStyles": {
+        "underline": [{
+          "from": 7,
+          "to": 13,
+          "value": true
+        }],
+        "font-size": [{
+          "from": 0,
+          "to": 13,
+          "value": 16
+        }],
+        "color": [{
+          "from": 0,
+          "to": 13,
+          "value": "#393939"
+        }],
+        "href": [{
+          "from": 7,
+          "to": 13,
+          "value": "https://guide.aotu.io/index.html"
+        }]
+      }
+    },
+    {
+      [代码规范之——js的简洁之道](https://segmentfault.com/a/1190000019400316?utm_source=tag-newest)
+      [Blog之——重学前端-深入理解js系列](https://juejin.im/post/5e6cf42bf265da57397e3694#heading-56)
+        [Blog之——政采云前端](https://www.zoo.team/")
+        [Blog之——和汤姆大叔一起学习](https://www.cnblogs.com/TomXu/)
+      [Blog之——风逝](https://github.com/fengshi123/blog)
+      [Blog之——作者的 Blog](https://github.com/KieSun/Dream)
+      [Blog之——ConardLi 的 Blog](https://github.com/ConardLi/ConardLi.github.io)
+      [Blog之——一个动图，一个CSS知识点](https://github.com/qdlaoyao/css-gif)
+      [Blog之——前端工匠的 Blog](https://github.com/ljianshu/Blog)
+      [Blog之——小生方勤的 Blog](https://juejin.im/user/5b6d656ef265da0f7c4ff4fd)
+      [Blog之——鱼头哥的 Blog](https://krissarea.gitee.io/blog/)
+      [Blog之——桃园的 Blog](http://www.taoweng.site/)
+      [Blog之——dendoink 的 Blog](https://juejin.im/user/585a2f52128fe10069ba1b95)
+      [Blog之——木易杨的 Blog](https://github.com/yygmind/blog)
+      [Blog之——SHERlocked93的 Blog](https://github.com/SHERlocked93/blog)
+      [Blog之——千古壹号的 Blog](https://github.com/qianguyihao/Web)
+      [Blog之——jsliang的 Blog](https://github.com/LiangJunrong/document-library)
+      [Blog之——前端农民工的 Blog](https://github.com/fouber/blog)
+      [Blog之——前端劝退师](https://juejin.im/user/57bd1bdfd342d3006bf76a52)
+      [微信小程序之—— 微信小程序架构原理](http://eux.baidu.com/blog/fe/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%9E%B6%E6%9E%84%E5%8E%9F%E7%90%86)
+      [微信小程序之——浅谈小程序运行机制](https://segmentfault.com/a/1190000019131399)
+      [微信小程序之——Licia 支持小程序的 JS 工具库](https://segmentfault.com/a/1190000019077594)
+      [微信小程序之——小程序m使用ixins方法](https://segmentfault.com/a/1190000019527762)
+      [微信小程序之——微信小程序：小技巧系列合辑No.1](http://www.wxapp-union.com/article-2478-1.html)
+      [微信小程序之——微信小程序：小技巧系列合辑No.1](http://www.wxapp-union.com/article-1535-1.html)
+      [微信小程序之——微信小程序_自定义导航](http://www.wxapp-union.com/article-5186-1.html)
+      [面试题之——前端面试体系化整理](https://github.com/InterviewMap/CS-Interview-Knowledge-Map)
+      [面试题之——前端面试每日一题](https://github.com/Advanced-Frontend/Daily-Interview-Question)
+      [面试题之—— 每周十道前端大厂面试题](https://github.com/airuikun/Weekly-FE-Interview)
+      [面试题之——前端面试每日 3+1](https://github.com/haizlin/fe-interview)
+      [面试题之——前端算法面试相关](https://github.com/ConardLi/awesome-coding-js)
+      [源码解析之——React 源码解析](https://github.com/KieSun/react-interpretation)
+      [源码解析之——Vue.js 源码解析](https://github.com/answershuto/learnVue)
+      [源码解析之——React + TS备忘录](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+      [调试工具之——H5 调试工具](https://github.com/wuchangming/spy-debugger)
+      [前端题库——JavaScript 进阶问题列表](https://github.com/lydiahallie/javascript-questions)
+      [css常用样式——CSS tricks](https://github.com/QiShaoXuan/css_tricks)
+      [书籍之——你不知道的 JS](https://github.com/getify/You-Dont-Know-JS)
+      [书籍之——忍者秘籍](https://book.douban.com/subject/30143702/)
+      [书籍之——CSS揭秘](https://book.douban.com/subject/26745943/)
+      [书籍之——图解HTTP](https://book.douban.com/subject/25863515/)
+      [书籍之——ECMAScript 6 入门](https://es6.ruanyifeng.com/)
+      [书籍之——JS 正则迷你书] (https://github.com/qdlaoyao/js-regex-mini-book)
+      [书籍之——JS 设计模式与开发实践](https://book.douban.com/subject/26382780/)
+      [书籍之——学习 JS 数据结构与算法](https://book.douban.com/subject/27129352/)
+      [书籍之——代码整洁之道](https://book.douban.com/subject/4199741/)
+      [书籍之——React 小书](http://huziketang.mangojuice.top/books/react/)

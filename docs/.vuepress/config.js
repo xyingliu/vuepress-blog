@@ -2,7 +2,7 @@
  * @FilePath: /xyingliu.github.io/Users/xyingliu/code/blog/vuepress-blog/docs/.vuepress/config.js
  * @Description: 描述
  * @Author: 刘晓莹
- * @LastEditTime: 2022-03-07 15:38:19
+ * @LastEditTime: 2022-03-10 14:26:55
  */
 
 module.exports = {
@@ -25,12 +25,12 @@ module.exports = {
 
   autoOpenBrowser: true,
   plugins: {
-    // 中文文件夹转拼音路径
+    // # 中文文件夹转拼音路径
     "permalink-pinyin": {
       lowercase: true, // Converted into lowercase, default: true
       separator: "-", // Separator of the slug, default: '-'
     },
-    // 侧边栏自动生成
+    // # 侧边栏自动生成
     "vuepress-plugin-auto-sidebar": {
       title: {
         mode: "titlecase",
@@ -54,7 +54,10 @@ module.exports = {
     autonav: {
       enable: true,
     },
-    // url路径按照目录文件名来生成
+    // # url路径按照目录文件名来生成
+
     "@vuepress/blog": {},
+    // # 进度条
+    "@vuepress/nprogress": {}
   },
 }

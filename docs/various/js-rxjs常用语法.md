@@ -1,0 +1,136 @@
+---
+title: rxjs常用操作
+---
+
+- Operators
+
+#### 选择器类
+
+- **take**
+  - 获取前几个数然后结束
+
+```
+// interval三次之后打印complete
+const time = interval(1000);
+time.pipe(take(count)).subscribe({
+    next: (next) => {
+        console.log(next);
+    },
+    error: (error) => {
+        console.log(error);
+        if (count % 2 === 1) {
+            return error;
+        }
+    },
+    complete: () => {
+        console.log('complete');
+    },
+});
+```
+
+```
+// interval三次打印的结果
+const time = interval(1000);
+time.pipe(take(count)).subscribe((timer) => {
+    console.log('timter', timer);
+});
+```
+
+** first **
+
+```
+
+```
+
+** last **
+** takeLast **
+
+#### 创建 observable 类
+
+create
+of
+from
+formEvent
+fromPromise
+never
+empty
+throw
+interval
+timer
+
+#### 控制数据流类
+
+// 当发生什么事件时终止订阅
+takeUtil
+
+```
+// 发生点击事件的时候中止操作
+const click = fromEvent(document.body, "click");
+const source = interval(1000).pipe(takeUntil(click));
+```
+
+// 跳过 n 项操作
+skip
+
+```
+const source = interval(1000).pipe(skip(3));
+source.subscribe({
+    next: (next) => {
+        console.log(next);
+    },
+    error: (error) => {
+        console.log(error);
+        if (count % 2 === 1) {
+            return error;
+        }
+    },
+    complete: () => {
+        console.log('complete');
+    },
+});
+```
+
+startWidth
+concat
+merge
+delay
+delayWhen
+throttle
+debounce
+distinct
+distinctUtileChanged
+
+// 接收到传递的值之后等到一段时候，确认已经是最后一个值之后取消接收
+debounce 在每次收到元素，他会先把元素 cache 住并等待一段时间，如果這段時間內已經沒有收到任何元素，則把元素送出；如果這段時間內又收到新的元素，則會把原本 cache 住的元素釋放掉並重新計時，不斷反覆。
+debounceTime
+
+#### 错误处理
+
+catch
+return
+retryWhen
+
+#### 操作数据
+
+scan
+repeat
+
+#### 协调多个 observable
+
+combineLatest
+withLatestFrom
+zip
+switchMap
+mergeMap
+concatMap
+
+#### 改变数据流结构
+
+concatAll
+mergeAll
+
+#### 缓存类
+
+buffer
+window
+windowToggle

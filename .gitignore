@@ -37,7 +37,7 @@ node_modules/
 jspm_packages/
 docs/.vuepress/dist/
 .vscode/
-
+docs/.vuepress/dist/CNAME
 # Typescript v1 declaration files
 typings/
 
