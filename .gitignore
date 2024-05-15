@@ -1,4 +1,9 @@
 # Logs
+.DS_Store
+node_modules
+.history
+/dist
+
 logs
 *.log
 npm-debug.log*
